@@ -1,9 +1,9 @@
-## Election Audit Analysis
+# Election Audit Analysis
 
-# Overview of Election Audit
+## Overview of Election Audit
 The purpose of this election audit is to extract key figures regarding candidate and county performance from the tabulated results of a Colorado election with automated processes that can be applied to other election results.
 
-# Election-Audit Results
+## Election-Audit Results
 
 *Votes Cast: 369, 711
 
@@ -23,6 +23,6 @@ The purpose of this election audit is to extract key figures regarding candidate
 
 *Dianna DeGette won the election with 272, 892 votes and 73.8% of the total vote.
 
-# Election-Audit Summary
+## Election-Audit Summary
 While these election results tallied votes across two categories (by candidate and county, not including the ballot ID), other elections may use any number of categories (i.e. may elect different candidates for multiple positions). The script could first create a list of categories based on the headers then iterate through the list to create a list of options, calculate total votes, the vote breakdown (percentage and raw number), and the item receiving the largest proportion of votes, as well as print and save the results in a generalized format for each list item as it currently does for candidates and counties. 
 
